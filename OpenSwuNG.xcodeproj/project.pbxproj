@@ -30,7 +30,6 @@
 		BF7E6921221D320C0032422F /* SWUAboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E6920221D320C0032422F /* SWUAboutHeaderView.m */; };
 		BF7E6947221D3C730032422F /* SWUNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E6946221D3C730032422F /* SWUNavigationController.m */; };
 		BFA4BE3B22255E06006F674E /* SWUScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA4BE3A22255E06006F674E /* SWUScrollview.m */; };
-		BFA4BE3E22255EE1006F674E /* SWULabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA4BE3D22255EE1006F674E /* SWULabel.m */; };
 		BFA4BE4122255FDF006F674E /* SWUCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA4BE4022255FDF006F674E /* SWUCollectionViewCell.m */; };
 		BFA4BE4822256264006F674E /* course.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFA4BE4222256263006F674E /* course.plist */; };
 		BFA4BE4922256264006F674E /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA4BE4522256264006F674E /* Data.m */; };
@@ -64,6 +63,8 @@
 		E851C8F5223A5F7E00EBDDBA /* SWUBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E851C8F3223A5F7D00EBDDBA /* SWUBindingViewController.m */; };
 		E851C8F8223A5F8D00EBDDBA /* SWUHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E851C8F7223A5F8C00EBDDBA /* SWUHeaderView.m */; };
 		E851C8FB223A5FA200EBDDBA /* NSDate+DistanceOfTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = E851C8FA223A5FA200EBDDBA /* NSDate+DistanceOfTimes.m */; };
+		E8B63A72224D0BA1006C1088 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B63A71224D0BA0006C1088 /* UIColor+HexString.m */; };
+		E8B63A75224D0BC8006C1088 /* SWULabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B63A73224D0BC8006C1088 /* SWULabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,8 +112,6 @@
 		BF7E6946221D3C730032422F /* SWUNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWUNavigationController.m; sourceTree = "<group>"; };
 		BFA4BE3922255E06006F674E /* SWUScrollview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWUScrollview.h; sourceTree = "<group>"; };
 		BFA4BE3A22255E06006F674E /* SWUScrollview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWUScrollview.m; sourceTree = "<group>"; };
-		BFA4BE3C22255EE1006F674E /* SWULabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWULabel.h; sourceTree = "<group>"; };
-		BFA4BE3D22255EE1006F674E /* SWULabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWULabel.m; sourceTree = "<group>"; };
 		BFA4BE3F22255FDF006F674E /* SWUCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWUCollectionViewCell.h; sourceTree = "<group>"; };
 		BFA4BE4022255FDF006F674E /* SWUCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWUCollectionViewCell.m; sourceTree = "<group>"; };
 		BFA4BE4222256263006F674E /* course.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = course.plist; sourceTree = "<group>"; };
@@ -178,6 +177,10 @@
 		E851C8F7223A5F8C00EBDDBA /* SWUHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUHeaderView.m; sourceTree = "<group>"; };
 		E851C8F9223A5FA200EBDDBA /* NSDate+DistanceOfTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DistanceOfTimes.h"; sourceTree = "<group>"; };
 		E851C8FA223A5FA200EBDDBA /* NSDate+DistanceOfTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DistanceOfTimes.m"; sourceTree = "<group>"; };
+		E8B63A70224D0BA0006C1088 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		E8B63A71224D0BA0006C1088 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		E8B63A73224D0BC8006C1088 /* SWULabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWULabel.m; sourceTree = "<group>"; };
+		E8B63A74224D0BC8006C1088 /* SWULabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWULabel.h; sourceTree = "<group>"; };
 		F8B7907FCE06F2DC1CECC24F /* Pods-OpenSwuNG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenSwuNG.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenSwuNG/Pods-OpenSwuNG.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -419,12 +422,12 @@
 		BF75E8CD2218F59B005244C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E8B63A74224D0BC8006C1088 /* SWULabel.h */,
+				E8B63A73224D0BC8006C1088 /* SWULabel.m */,
 				BFA4BE7D2226A3C5006F674E /* SWUWeekSelectView.h */,
 				BFA4BE7E2226A3C5006F674E /* SWUWeekSelectView.m */,
 				BFA4BE7722267E21006F674E /* SWUNavTitleView.h */,
 				BFA4BE7822267E21006F674E /* SWUNavTitleView.m */,
-				BFA4BE3C22255EE1006F674E /* SWULabel.h */,
-				BFA4BE3D22255EE1006F674E /* SWULabel.m */,
 				BFA4BE3922255E06006F674E /* SWUScrollview.h */,
 				BFA4BE3A22255E06006F674E /* SWUScrollview.m */,
 				BFA4BE3F22255FDF006F674E /* SWUCollectionViewCell.h */,
@@ -547,6 +550,8 @@
 		BFD47F6C222223E6000AED18 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E8B63A70224D0BA0006C1088 /* UIColor+HexString.h */,
+				E8B63A71224D0BA0006C1088 /* UIColor+HexString.m */,
 				BFD47F6E22222435000AED18 /* UIBarButtonItem+Item.h */,
 				BFD47F6D22222435000AED18 /* UIBarButtonItem+Item.m */,
 				E851C8F9223A5FA200EBDDBA /* NSDate+DistanceOfTimes.h */,
@@ -679,7 +684,6 @@
 				BFB95CD322323AAB00090BEE /* SWUBindingModel.m in Sources */,
 				BFF9ADFA22296FDE00B10767 /* SWUForgetPwdViewController.m in Sources */,
 				BFF9ADA122280A9C00B10767 /* SWUTextField.m in Sources */,
-				BFA4BE3E22255EE1006F674E /* SWULabel.m in Sources */,
 				E851C8FB223A5FA200EBDDBA /* NSDate+DistanceOfTimes.m in Sources */,
 				BF7E691E221CF8010032422F /* SWUAboutViewController.m in Sources */,
 				E851C8F2223A5F6400EBDDBA /* SWUScoreViewController.m in Sources */,
@@ -700,6 +704,7 @@
 				BFD47F6F22222435000AED18 /* UIBarButtonItem+Item.m in Sources */,
 				BFF9ADFD222A321E00B10767 /* SWULoginLabel.m in Sources */,
 				BF75E8D02218F59B005244C5 /* SWUMineViewController.m in Sources */,
+				E8B63A75224D0BC8006C1088 /* SWULabel.m in Sources */,
 				BF7E6921221D320C0032422F /* SWUAboutHeaderView.m in Sources */,
 				BFA4BE4922256264006F674E /* Data.m in Sources */,
 				BFB95CEC2233F77800090BEE /* SWUTotalScoreView.m in Sources */,
@@ -713,6 +718,7 @@
 				BFA4BE7622262F66006F674E /* SWUAlertViewController.m in Sources */,
 				BF75E8CF2218F59B005244C5 /* SWUMainViewController.m in Sources */,
 				E851C8F5223A5F7E00EBDDBA /* SWUBindingViewController.m in Sources */,
+				E8B63A72224D0BA1006C1088 /* UIColor+HexString.m in Sources */,
 				BFB95CFD2235493C00090BEE /* SWUPickerView.m in Sources */,
 				E851C8EF223A5F5200EBDDBA /* SWUPointView.m in Sources */,
 				BFA4BE892226D2A4006F674E /* SWURegisterViewController.m in Sources */,
